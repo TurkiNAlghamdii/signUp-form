@@ -20,7 +20,7 @@
     flex-direction: row;
     width: 100%;
     height: 100%;
-    border: 5px solid red;
+    /* border: 5px solid red; */
     top: 0;
     left: 0;
     z-index: 100;
@@ -32,10 +32,14 @@
     display: flex;
     justify-content: center;
     text-align: center;
+    
 }
 #other{
     flex: 1;
     flex-basis: 20%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
 }
 .logo{
     flex: 1;
@@ -46,4 +50,23 @@
     justify-content: center;
     color: #FAF0E6;
    background: rgba(0, 0, 0, 0.5);
+}
+
+.theForm{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+}
+
+.loginInputs{
+    background-color: red;
+    height: 150px;
+    display: flex;
+    border: 3px solid blanchedalmond;
+    flex-direction: column;
+    width: 400px;
+}
+.input{
+    display: flex;
+    flex-wrap: wrap;
 }
